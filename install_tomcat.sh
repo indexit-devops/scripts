@@ -7,6 +7,6 @@ fi
 
 echo "Installing TOmcat"
 yum install tomcat -y
-eho "Starting Tomcat"
+echo "Starting Tomcat"
 systemctl enable tomcat 
 systemctl start tomcat
